@@ -11,8 +11,6 @@ const teamTwoSubtractButton = document.getElementById('team-two-subtract-button'
 const finishGameButton = document.getElementById('finish-game-button');
 const teamOneLabel = document.getElementById('team-one-name');
 const teamTwoLabel = document.getElementById('team-two-name');
-const teamOneInput = document.getElementById('team-one-input');
-const teamTwoInput = document.getElementById('team-two-input');
 const teamOneName = document.getElementById('team1');
 const teamTwoName = document.getElementById('team2');
 
@@ -120,7 +118,7 @@ function refreshCurrentGameEl() {
     
 
     // const gameEl = . . . 
-    // make a new gameEl here by calling renderGame with the approriate arguments. 
+    // make a new gameEl here by calling renderGame with the appropriate arguments. 
     // Check the renderGame function declaration in render-utils.js to figure out the correct arguments to pass to this function 
     // In render-utils.js as yourself: How many arguments does the function take? What order does it take them in?
     
